@@ -2,7 +2,7 @@ node ('master')
 {
    stage('continuous download')
    {
-       git 'https://github.com/intelliqittrainings/maven.git'
+       git 'https://github.com/bmanoj0509/BMK.git'
    }
    stage('continuous build')
    {
