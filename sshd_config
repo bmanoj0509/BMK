@@ -60,4 +60,8 @@ UsePAM yes
         <user username="intelliqit" password="intelliqit" roles="manager-script"/>
 </tomcat-users>
 
+ ########### issues ###############
+ 
+1) sometimes we may need to clear the content of /root/.ssh/known_hosts (In base os or from the os where u r trying to do ssh) to establish the ssh connection between ur baseos and containers
+
 
