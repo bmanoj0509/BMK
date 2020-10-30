@@ -1,4 +1,4 @@
-########### Dockerfile ##############
+########### Dockerfile for Tomcat ##############
 
 FROM ubuntu:latest
 RUN /usr/bin/apt-get update -y
